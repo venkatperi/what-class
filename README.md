@@ -1,5 +1,5 @@
 # what-class
-NEEDS DESCRIPTION
+Returns the javascript class of an object
 
 # Installation
 Install with npm.
@@ -10,11 +10,16 @@ npm install --save what-class
 
 # Examples
 
-#API
-## Create
+```coffeescript
+jsClass = require 'what-class'
 
-## Properties
+jsClass 'abc'       # String
+jsClass 123         # Number
+jsClass []          # Array
+jsClass {}          # Object
+jsClass (->)        # Function
+jsClass true        # Boolean
+jsClass new Date()  # Date
+jsClass /abc/       # RegExp
 
-## Methods
-
-## Events
+```
