@@ -1,14 +1,13 @@
 {
   "name": "what-class",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/venkatperi/what-class.git"
   },
   "preferGlobal": false,
   "description": "NEEDS DESCRIPTION",
-  "dependencies": {
-  },
+  "dependencies": {},
   "bundleDependencies": [],
   "main": "dist/index",
   "scripts": {
@@ -33,6 +32,5 @@
   },
   "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
   "license": "MIT",
-  "keywords": [
-  ]
+  "keywords": []
 }
